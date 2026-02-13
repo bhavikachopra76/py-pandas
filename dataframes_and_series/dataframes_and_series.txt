@@ -1,0 +1,4 @@
+Series -> series are 1D labeled array which can hold any data type
+It consists of:
+~ Data
+~ Index (Label)
