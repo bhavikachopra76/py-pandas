@@ -2,3 +2,16 @@ Series -> series are 1D labeled array which can hold any data type
 It consists of:
 ~ Data
 ~ Index (Label)
+
+DataFrame -> It is a 2D-labeled data structure, which consists of rows and columns
+Dataframe is a combination of multiple series
+If series is a single column, dataframe is a group of multiple series who share the same index.
+A DataFrame has:
+~ Rows → horizontal
+~ Columns → vertical
+~ Row index → labels for rows
+~ Column names → labels for columns
+
+Axis in Dataframes
+0 -> Rows (collapsing rows -> downward)
+1 -> Column (collapsing columns -> upward)
